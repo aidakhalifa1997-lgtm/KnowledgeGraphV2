@@ -1,0 +1,7 @@
+python-docx
+pymupdf
+pytesseract
+pillow
+neo4j
+python-dotenv
+pytest

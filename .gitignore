@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Résultats générés (reproductibles avec les scripts)
+data/extracted/*
+!data/extracted/.gitkeep
+
+# Documents réels de l'employeur : ne jamais les versionner
+data/confidentiel/
+
+# Divers
+.DS_Store
+.vscode/
