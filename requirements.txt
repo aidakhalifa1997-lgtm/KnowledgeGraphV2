@@ -5,3 +5,4 @@ pillow
 neo4j
 python-dotenv
 pytest
+openai
