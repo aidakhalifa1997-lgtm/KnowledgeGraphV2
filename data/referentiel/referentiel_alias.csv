@@ -1,0 +1,53 @@
+type;nom_officiel;alias
+Direction;DG;Direction Générale
+Direction;DSI;Direction des Systèmes d'Information
+Direction;DSSI;Direction de la Sécurité des Systèmes d'Information
+Direction;DAL;Direction Achats et Logistique
+Direction;DF;Direction Financière
+Direction;DRH;Direction des Ressources Humaines
+Direction;DTPO;Direction Transformation, Processus et Organisation
+Direction;DR;Direction des Risques
+Direction;CONF;Conformité
+Direction;CP;Contrôle Permanent
+Direction;DJ;Direction Juridique
+Domaine;IT;Informatique
+Domaine;SEC;Sécurité des systèmes d'information
+Domaine;ACH;Achats et Logistique
+Domaine;FIN;Finance
+Domaine;RH;Ressources Humaines
+Outil;OriDesk;Ori Desk
+Outil;OriCMDB;Ori CMDB
+Outil;OriBackup;Ori Backup
+Outil;OriForge;Ori Forge
+Outil;OriIAM;Ori IAM
+Outil;OriVault;Ori Vault
+Outil;OriSOC;Ori SOC
+Outil;OriVuln;Ori Vuln
+Outil;OriAchats;Ori Achats
+Outil;OriStock;Ori Stock
+Outil;OriCompta;Ori Compta
+Outil;OriTreso;Ori Treso
+Outil;OriBudget;Ori Budget
+Outil;OriRH;Ori RH
+Outil;OriPaie;Ori Paie
+Outil;OriDoc;Ori Doc
+Acteur;Comité des Changements (CAB);CAB
+Acteur;Comité des Changements (CAB);Comité des Changements
+Acteur;Comité des Achats (COMACH);COMACH
+Acteur;Comité des Achats (COMACH);Comité des Achats
+Acteur;Comité de Sécurité des Systèmes d'Information (CSSI);CSSI
+Acteur;Comité de Sécurité des Systèmes d'Information (CSSI);Comité de Sécurité des Systèmes d'Information
+Acteur;Comité de Direction (CODIR);CODIR
+Acteur;Comité de Direction (CODIR);Comité de Direction
+Acteur;Comité Mobilité (COMOB);COMOB
+Acteur;Comité Mobilité (COMOB);Comité Mobilité
+Projet;PRJ-ITSM-2025;PRJ ITSM 2025
+Projet;PRJ-IAM-2025;PRJ IAM 2025
+Projet;PRJ-P2P-2025;PRJ P2P 2025
+Projet;PRJ-SIRH-2024;PRJ SIRH 2024
+Projet;PRJ-CLOTURE-2025;PRJ CLOTURE 2025
+Projet;PRJ-PCA-2024;PRJ PCA 2024
+Projet;PRJ-SOC-2025;PRJ SOC 2025
+Projet;PRJ-DEVOPS-2025;PRJ DEVOPS 2025
+Projet;PRJ-REFPROC-2024;PRJ REFPROC 2024
+Projet;PRJ-PILOTAGE-2026;PRJ PILOTAGE 2026

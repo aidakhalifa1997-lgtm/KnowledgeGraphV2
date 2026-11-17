@@ -12,6 +12,7 @@ from pathlib import Path
 
 import docx                      # python-docx : lecture des fichiers Word
 import pymupdf                   # PyMuPDF : lecture des PDF et rendu des pages en images
+import pymupdf4llm               # conversion d'une page PDF en Markdown, avec ses tableaux
 import pytesseract               # OCR (nécessite le programme Tesseract installé)
 from docx.table import Table
 from docx.text.paragraph import Paragraph
@@ -53,9 +54,12 @@ def lire_pdf(chemin: Path) -> tuple[str, str]:
     """Lit un PDF. Retourne (texte, mode) avec mode = 'natif', 'ocr' ou 'mixte'."""
     pages, modes = [], set()
     with pymupdf.open(chemin) as pdf:
-        for page in pdf:
+        for numero, page in enumerate(pdf):
             texte = page.get_text().strip()
             if len(texte) >= SEUIL_TEXTE_PAR_PAGE:
+                # page avec du texte : on le relit en Markdown pour garder la structure des tableaux
+                # (get_text() met chaque cellule sur une ligne et fait perdre les colonnes)
+                texte = pymupdf4llm.to_markdown(pdf, pages=[numero]).strip()
                 modes.add("natif")
             else:
                 texte = ocr_page(page).strip()

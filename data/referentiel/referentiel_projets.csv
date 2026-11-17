@@ -1,0 +1,11 @@
+code;description
+PRJ-ITSM-2025;Refonte de la gestion des services informatiques (OriDesk, OriCMDB)
+PRJ-IAM-2025;Mise en place de la gestion des identités et des habilitations (OriIAM, OriVault)
+PRJ-P2P-2025;Digitalisation du cycle achat-paiement (OriAchats)
+PRJ-SIRH-2024;Déploiement du système d'information RH (OriRH, OriPaie)
+PRJ-CLOTURE-2025;Accélération de la clôture comptable
+PRJ-PCA-2024;Renforcement de la continuité d'activité informatique
+PRJ-SOC-2025;Mise en place du centre des opérations de sécurité (OriSOC)
+PRJ-DEVOPS-2025;Industrialisation des déploiements applicatifs (OriForge)
+PRJ-REFPROC-2024;Refonte du référentiel procédural d'Orizia
+PRJ-PILOTAGE-2026;Pilotage budgétaire intégré (OriBudget)
