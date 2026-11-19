@@ -1,0 +1,31 @@
+reference;titre
+IT-01;Gestion des incidents informatiques
+IT-02;Gestion des changements informatiques
+IT-03;Gestion des demandes de service informatique
+IT-04;Sauvegarde et restauration des données
+IT-05;Gestion des mises en production applicatives
+IT-06;Gestion du parc informatique et du cycle de vie des équipements
+IT-07;Plan de continuité et de reprise d'activité informatique
+SEC-01;Gestion des habilitations et des accès applicatifs
+SEC-02;Gestion des comptes à privilèges
+SEC-03;Gestion des incidents de sécurité
+SEC-04;Gestion des vulnérabilités et des correctifs de sécurité
+SEC-05;Classification et protection des données
+SEC-06;Évaluation de la sécurité des fournisseurs et prestataires
+ACH-01;Expression du besoin et demande d'achat
+ACH-02;Consultation et sélection des fournisseurs
+ACH-03;Commande, réception et rapprochement
+ACH-04;Gestion des stocks et des fournitures
+ACH-05;Gestion des contrats fournisseurs
+ACH-06;Gestion des immobilisations
+FIN-01;Traitement et paiement des factures fournisseurs
+FIN-02;Clôture comptable mensuelle
+FIN-03;Élaboration et suivi du budget
+FIN-04;Remboursement des notes de frais
+FIN-05;Gestion de la trésorerie et prévisions de liquidité
+FIN-06;Déclarations fiscales et TVA
+RH-01;Recrutement externe
+RH-02;Intégration des nouveaux collaborateurs
+RH-03;Mobilité interne
+RH-04;Départ des collaborateurs
+RH-05;Gestion de la paie et des dossiers du personnel

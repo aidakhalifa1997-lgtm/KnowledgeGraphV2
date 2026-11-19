@@ -17,3 +17,10 @@ data/confidentiel/
 # Divers
 .DS_Store
 .vscode/
+
+.env
+.venv/
+__pycache__/
+*.pyc
+data/conversations.json
+data/index/vecteurs.npy
